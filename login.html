@@ -12,6 +12,7 @@
             border: none;
         }
         body{
+            width: 100%;
             font-size: 14px;
             font-family: 'Roboto', sans-serif;
         }
@@ -75,16 +76,16 @@
 </style>
 <body>
     <div class="container">
-    <div class="login-wrapper">
+         <div class="login-wrapper">
         <h2>My_Login</h2>
-        <form method="post" action="서버의url" id="login-form">
-            <input type="text" name="userName" placeholder="Email">
-            <input type="password" name="userPassword" placeholder="Password">
-            <label for="remember-check">
-                <input type="checkbox" id="remember-check">아이디 저장하기
-            </label>
-            <input type="submit" value="Login">
-        </form>
-     </div>
-</div>
+            <form method="post" action="서버의url" id="login-form">
+                <input type="text" name="userName" placeholder="Email">
+                <input type="password" name="userPassword" placeholder="Password">
+                <label for="remember-check">
+                    <input type="checkbox" id="remember-check">아이디 저장하기
+                </label>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </div>
 </body>
