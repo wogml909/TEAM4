@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
     position: relative;
     width: 1200px;
@@ -15,4 +16,23 @@
 .box1 {padding-top: 20px;}
 .box2 {padding-right: 40px;}
 .box3 {padding-bottom: 60px;}
+=======
+.container {
+    position: relative;
+    width: 1200px;
+    border: 3px solid red;
+    text-align: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border: 1px solid gray;
+    background-color: #ddd;
+}
+.box1 {padding-top: 20px;}
+.box2 {padding-right: 40px;}
+.box3 {padding-bottom: 60px;}
+>>>>>>> fd495682a90287a819f9fbc7d2d5ea1fb3503689
 .box4 {padding-left: 80px;}

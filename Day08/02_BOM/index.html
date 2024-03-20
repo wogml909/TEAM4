@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,4 +20,27 @@
     <h1>메인 페이지</h1>
     <button id="back">뒤로가기</button>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인 페이지</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let $back = document.getElementById('back')
+
+            // 뒤로가기
+            $back.addEventListener('click', () => {
+                history.back()
+            })
+        })
+    </script>
+</head>
+<body>
+    <h1>메인 페이지</h1>
+    <button id="back">뒤로가기</button>
+</body>
+>>>>>>> fd495682a90287a819f9fbc7d2d5ea1fb3503689
 </html>

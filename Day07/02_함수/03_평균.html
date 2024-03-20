@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,4 +34,41 @@
 <body>
     
 </body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>평균</title>
+    <script>
+
+        let arr = [1,2,3,3,7,15]
+
+        document.write(`합계 : ${ sum(arr) } <br>`)
+        document.write(`평균 : ${ avg(arr).toFixed(2) } <br>`)
+        // 숫자타입.toFixed(자리수) : 소수점을 잘라서 나타내는 함수 
+
+        // 합계
+        function sum( arr ) {
+            // let sum = 0
+            // for (let i = 0; i < array.length; i++) {
+            //     sum += array[i];
+            // }
+            let sum = arr.reduce((acc, curr) => acc + curr)
+            return sum
+        }
+
+        // 평균
+        function avg(arr) {
+            let avg = 0.0
+            avg = sum(arr) / arr.length
+            return avg
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+>>>>>>> fd495682a90287a819f9fbc7d2d5ea1fb3503689
 </html>
